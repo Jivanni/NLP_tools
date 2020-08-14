@@ -1,6 +1,14 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
 # %%
+'''
+"lang_id" takes a string and outputs a the name of the most probable language in which the text is written.
+It uses Spearman's rank correlation to compare how similar the input text is to each of the languages in the Declaration of Human Rights corupus.
+Currently it only supports language encoded in "Latin1", therefore languages that rely on utf-8 are not yet supported.
+
+More info about Spearman's Correlation: https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient
+'''
+
 import nltk
 from nltk.corpus import udhr
 import re

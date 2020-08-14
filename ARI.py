@@ -1,5 +1,15 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
+
+
+# %%
+'''
+The Automated Readability Index (ARI) is a readability test designed to assess the understandability of a text. Like other popular readability formulas, the ARI formula outputs a number which approximates the grade level needed to comprehend the text. For example, if the ARI outputs the number 10, this equates to a high school student, ages 15-16 years old; a number 3 means students in 3rd grade (ages 8-9 yrs. old) should be able to comprehend the text.
+More info: https://readabilityformulas.com/automated-readability-index.php
+Use ARI_text_from_corpus if you want to calcluate the ARI from a Nltk corpus object, use ARI_rawtext if the text has not been tokenized.
+
+'''
+
 # %%
 import nltk
 import re

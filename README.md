@@ -2,7 +2,7 @@
 
 A wrapper for my Natural language processing projects
 
-Run "nlp_wrapper.py" use my scripts in a GUI. 
+Run "nlp_wrapper.py" to use my scripts in a GUI. 
 
 It requires NLTK and its "book" corpora to run.
 
